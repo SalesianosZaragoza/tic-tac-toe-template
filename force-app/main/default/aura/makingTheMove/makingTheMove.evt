@@ -1,0 +1,7 @@
+<aura:event type="APPLICATION" description="Event template">
+
+    <aura:attribute name="row" type="string"></aura:attribute>
+    <aura:attribute name="column" type="string"></aura:attribute>
+    <aura:attribute name="move" type="string"></aura:attribute>
+
+</aura:event>

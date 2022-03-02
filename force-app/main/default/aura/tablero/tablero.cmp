@@ -1,0 +1,30 @@
+<aura:component>
+    <aura:handler event="c:makingTheMove" action="{!c.painting}"/>
+    <table aura:id="tablero">
+        <tr>
+          <td>{!v.var1}</td>
+          <td>{!v.var2}</td>
+          <td>{!v.var3}</td>
+        </tr>
+        <tr>
+          <td>{!v.var4}</td>
+          <td>{!v.var5}</td>
+          <td>{!v.var6}</td>
+        </tr>
+        <tr>
+          <td>{!v.var7}</td>
+          <td>{!v.var8}</td>
+          <td>{!v.var9}</td>
+        </tr>
+      </table>
+
+      <aura:attribute name="var1" type="string"></aura:attribute>
+      <aura:attribute name="var2" type="string"></aura:attribute>
+      <aura:attribute name="var3" type="string"></aura:attribute>
+      <aura:attribute name="var4" type="string"></aura:attribute>
+      <aura:attribute name="var5" type="string"></aura:attribute>
+      <aura:attribute name="var6" type="string"></aura:attribute>
+      <aura:attribute name="var7" type="string"></aura:attribute>
+      <aura:attribute name="var8" type="string"></aura:attribute>
+      <aura:attribute name="var9" type="string"></aura:attribute>
+</aura:component>	
