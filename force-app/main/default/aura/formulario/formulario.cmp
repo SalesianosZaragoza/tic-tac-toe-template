@@ -1,6 +1,6 @@
 <aura:component>
-    <input type="text" aura:id="numRow"/>
-    <input type="text" aura:id="numColumn"/>
+    <input type="text" aura:id="numRow" placeholder="enter row number"/>
+    <input type="text" aura:id="numColumn" placeholder="enter column number"/>
     <input type="text" aura:id="move"/>
-    <input type="button" onclick="{!c.playerMove}"/>
+    <input type="button" value="play" onclick="{!c.playerMove}"/>
 </aura:component>	
